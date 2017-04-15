@@ -191,8 +191,8 @@ const VideoPlayer = React.createClass({
       );
     }
 
-    if (!this.state.visible) {
-      if (sensitive) {
+    if (false) { 
+      if (false) {
         return (
           <div style={{...spoilerStyle, width: `${width}px`, height: `${height}px` }} className='media-spoiler' onClick={this.handleVisibility}>
             {spoilerButton}

@@ -210,10 +210,10 @@ const MediaGallery = React.createClass({
 
     let children;
 
-    if (!this.state.visible) {
+    if (false) { 
       let warning;
 
-      if (sensitive) {
+      if (false) {
         warning = <FormattedMessage id='status.sensitive_warning' defaultMessage='Sensitive content' />;
       } else {
         warning = <FormattedMessage id='status.media_hidden' defaultMessage='Media hidden' />;
